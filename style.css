@@ -1,0 +1,31 @@
+body {
+    display: flex;
+}
+
+[src="background.jpg"] {
+    width: 640px;
+    height: 959px;
+}
+
+[src="odin.png"] {
+    width: 150px;
+    height: 150px;
+}
+
+.credit {
+    display: flex;
+    justify-content: center;
+    color: antiquewhite;
+    margin-top: -30px;
+}
+
+.odin {
+    display: flex;
+    width: 100%;
+    height: 15%;
+    color: #fff;
+    justify-content: center;
+    align-items: center;
+    margin-top: -95%;
+    background-color: rgba(0,0,0,.6);
+}
