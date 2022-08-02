@@ -1,3 +1,7 @@
+html{
+    margin: 0px;
+}
+
 body {
     display: flex;
 }
@@ -12,6 +16,17 @@ body {
     height: 150px;
 }
 
+form {
+    box-shadow: 0px 2px;
+    padding: 50px;
+}
+
+legend {
+    font-weight: 550;
+    font-size: large;
+    margin-left: -2px;
+    padding-bottom: 15px;
+}
 .credit {
     display: flex;
     justify-content: center;
@@ -28,4 +43,34 @@ body {
     align-items: center;
     margin-top: -95%;
     background-color: rgba(0,0,0,.6);
+}
+
+.header {
+    background-color: #f9fafb;
+    padding: 50px;
+    padding-top: 120px;
+    font-size: larger;
+    font-weight: 600;
+}
+
+.name {
+    display: flex;
+    gap: 70px;
+    margin-bottom: 10px;
+}
+
+.second {
+    display: flex;
+    gap: 70px;
+    margin-bottom: 10px;
+}
+
+.third {
+    display: flex;
+    gap: 70px;
+}
+
+.input {
+    display: flex;
+    flex-direction: column;
 }
