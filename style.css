@@ -17,11 +17,6 @@ body {
     height: 150px;
 }
 
-input {
-    background-color: #fffefe;
-    border: 1px solid black;
-    border-radius: 3px;
-}
 form {
     box-shadow: 0px 2px #dbdadb;
     padding: 50px;
@@ -32,6 +27,19 @@ legend {
     font-size: large;
     margin-left: -2px;
     padding-bottom: 15px;
+}
+
+label {
+    font-size: small;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+input {
+    background-color: #fffefe;
+    border: 1px solid #E5E7EB;
+    border-radius: 3px;
+    height: 20px;
+    width: 1    80px;
 }
 .credit {
     display: flex;
@@ -97,4 +105,13 @@ button {
     width: 180px;
     font-family: futura, 'Courier New', Courier, monospace;
     font-size: 1em;
+}
+
+.error {
+    border: 1px solid red;
+}
+
+.error-msg {
+    color: red;
+    font-size: smaller;
 }
