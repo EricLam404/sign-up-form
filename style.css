@@ -143,3 +143,21 @@ input:focus {
     border: 2px solid blue !important;
     box-shadow: 2px 2px #dbdadb !important;
 }
+
+button:hover {
+   background-color: #7b9464;
+}
+
+.last-text {
+    display: flex;
+    gap: 5px;
+    font-weight: 600;
+}
+
+#login {
+    color: #596d47
+}
+
+#login:hover {
+    color: #7b9464;
+}
