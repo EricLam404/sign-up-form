@@ -137,3 +137,9 @@ button {
     color: red;
     font-size: smaller;
 }
+
+input:focus {
+    outline: none !important;
+    border: 2px solid blue !important;
+    box-shadow: 2px 2px #dbdadb !important;
+}
